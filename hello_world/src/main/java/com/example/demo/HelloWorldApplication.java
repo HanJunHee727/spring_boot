@@ -11,7 +11,7 @@ public class HelloWorldApplication {
     
     @RequestMapping("/")
     String home() {        
-        return "Hello World!";
+        return "Hello World! This is spring ~ git test!";
     }
 	public static void main(String[] args) {
 		SpringApplication.run(HelloWorldApplication.class, args);
